@@ -5,7 +5,6 @@ namespace PartyInvites.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: Home
         public ViewResult Index()
         {
             int hour = DateTime.Now.Hour;
